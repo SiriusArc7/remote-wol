@@ -9,3 +9,4 @@ LANのraspiからメインPCにwake-on-lanする想定のもの
 
 # 自分の使い方
 - MacroDroidで自分が指定のエリアに入ったら、自宅のraspiに対してHTTP Request POSTを自動で投げるようにしてあります
+- pm2とかにこだわらないなら`nohup node index.js &` みたいな感じでバックグラウンド実行させておけばいいんじゃないかと思います
